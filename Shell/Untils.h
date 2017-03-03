@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface Untils : NSObject
-
++ (void)configure;
++ (BOOL)changePlist;
 @end
